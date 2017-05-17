@@ -1,0 +1,7 @@
+SSLProxyEngine on
+        SSLProxyCACertificateFile "cert.pem"
+        SSLProxyCheckPeerCN Off
+        SSLProxyCheckPeerName Off
+
+        ProxyPass 
+        ProxyPassReverse 
